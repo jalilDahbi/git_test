@@ -1,0 +1,30 @@
+/* Reset all styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Reset default list styles */
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  /* Reset default anchor styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Reset default button styles */
+  button,
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font: inherit;
+  }
